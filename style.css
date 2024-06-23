@@ -1,3 +1,13 @@
 .text-primary {
   color: #0ff !important;
 }
+.shadow {
+  border: 1px solid;
+  box-shadow: 5px 10px 18px #ffffff !important;
+}
+
+@media only screen and (max-width: 425px){
+    .custom-w {
+        width: 100% !important;
+    }
+}
