@@ -10,13 +10,21 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="bg-dark">
     <!-- Header -->
     <header class="container">
-      <nav class="navbar navbar-expand-lg ">
-        <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid px-0">
           <button
             class="navbar-toggler text-bg-light"
             type="button"
@@ -40,19 +48,36 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                <a
+                  class="nav-link active text-light"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" aria-current="page" href="#">Portfolio</a>
+                <a class="nav-link text-light" aria-current="page" href="#"
+                  >Portfolio</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" aria-current="page" href="#">Skills</a>
+                <a class="nav-link text-light" aria-current="page" href="#"
+                  >Skills</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" aria-current="page" href="#">About</a>
+                <a class="nav-link text-light" aria-current="page" href="#"
+                  >About</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" aria-current="page" href="#">About</a>
+                <a
+                  class="btn btn-info d-flex justify-content-center align-items-center gap-2"
+                  href="resume.pdf"
+                  title=""
+                  download="resume.pdf"
+                  >Resume <ion-icon name="cloud-download-outline"></ion-icon
+                ></a>
               </li>
             </ul>
           </div>
@@ -60,12 +85,44 @@
       </nav>
     </header>
     <!-- Main -->
-     <main>
-        <!-- Hero section -->
-         <section class="container">
+    <main>
+      <!-- Hero section -->
+      <section class="container mt-5">
+        <div class="row d-flex gap-3 gap-md-0 flex-column-reverse flex-md-row justify-content-center align-items-center">
+          <div class="col-12 col-md-8">
+            <h1 class="fs-1 text-primary fw-bolder">
+              Hi! <br />
+              I'M GIAS UDDIN
+            </h1>
+            <p class="text-light">
+              Web Developer || React Developer || Programmer
+            </p>
+            <p class="text-light mt-3">
+              I am an enthusiastic JavaScript developer with knowing some
+              framework for the frontend and the backend. I know Basic PHP and
+              MySQL but basically a MERN developer.
+            </p>
+            <div class="d-flex justify-content-start align-items-center gap-3">
+              <ion-icon class="text-info fs-4" name="logo-github"></ion-icon>
+              <ion-icon class="text-info fs-4" name="logo-youtube"></ion-icon>
+              <ion-icon class="text-info fs-4" name="logo-instagram"></ion-icon>
+              <a
+                class="btn btn-info d-flex justify-content-center align-items-center gap-2"
+                href="resume.pdf"
+                title=""
+                download="resume.pdf"
+                >Resume <ion-icon name="cloud-download-outline"></ion-icon
+              ></a>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <img src="./images/gias.jpg" alt="image" class="img-fluid">
+          </div>
+        </div>
+      </section>
 
-         </section>
-     </main>
+      <!--  -->
+    </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
